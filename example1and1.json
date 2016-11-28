@@ -1,0 +1,30 @@
+{
+	"ID": "demo1and1",
+	"Properties": {
+		"Allocation": {
+			"Size": 3
+		},
+		"Instance": {
+			"Plugin": "instance-1and1",
+			"Properties": {
+				"Appliance": "CoreOS_Stable_64std",
+				"Datacenter": "DE",
+				"FixedServerSize": "S",
+				"Password": "Provide-1-strong-Pass",
+				"SSHKey": "",
+				"SSHKeyPath": "/home/nb/.ssh/id_rsa.pub",
+				"FirewallID": "",
+				"LoadBalancerID": "",
+				"MonitorPolicyID": ""
+			}
+		},
+		"Flavor": {
+			"Plugin": "flavor-vanilla",
+			"Properties": {
+				"Tags": {
+					"env": "testing-HA"
+				}
+			}
+		}
+	}
+}
