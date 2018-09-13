@@ -1,5 +1,7 @@
 # InfraKit Instance Plugin for 1&amp;1 Cloud Server
 
+For more information on the InfraKit Instance Plugin for 1&amp;1 Cloud Server see the [1&1 Community Portal](https://www.1and1.com/cloud-community/).
+
 [![Build Status](https://travis-ci.org/1and1/infrakit-instance-oneandone.svg?branch=master)](https://travis-ci.org/1and1/infrakit-instance-oneandone)
 
 This is an [InfraKit](https://github.com/docker/infrakit) instance plugin for creating and managing 1&amp;1 Cloud servers.
